@@ -13,6 +13,7 @@ h1, h2 {
 .banner {
     background-color: #f9f9f9;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .about, .contact {
@@ -20,16 +21,25 @@ h1, h2 {
     padding: 20px;
     border-radius: 5px;
     background-color: #f9f9f9;
+    border-radius: 10px;
 }
 
 .image-placeholder {
-    width: 100%;
-    height: 300px;
-    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
     margin-top: 20px;
-    background-image: url('../assets/mr-lee-f4RBYsY2hxA-unsplash.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
 }
 
 a {

@@ -1,5 +1,5 @@
-import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
-import { provideRouter } from '@angular/router';
+import { ApplicationConfig, Component, provideZoneChangeDetection } from '@angular/core';
+import { RouterLink, RouterModule, provideRouter } from '@angular/router';
 
 import { routes } from './app.routes';
 
