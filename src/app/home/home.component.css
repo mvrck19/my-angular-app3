@@ -1,0 +1,48 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center the text */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.banner {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.about, .contact {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: #ddd;
+    margin-top: 20px;
+    background-image: url('../assets/mr-lee-f4RBYsY2hxA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
