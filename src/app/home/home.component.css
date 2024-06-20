@@ -1,35 +1,38 @@
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1px;
     font-family: Arial, sans-serif;
-    text-align: center; /* Center the text */
+    text-align: center;
+    /* Center the text */
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #333;
 }
 
 .banner {
     background-color: #f9f9f9;
     padding: 20px;
+    border-radius: 10px;
 }
 
-.about, .contact {
+.about,
+.contact {
     margin-top: 20px;
     padding: 20px;
     border-radius: 5px;
     background-color: #f9f9f9;
+    border-radius: 10px;
+}
+.image-placeholder {
+    margin-top: 20px;
 }
 
-.image-placeholder {
-    width: 100%;
-    height: 300px;
-    background-color: #ddd;
-    margin-top: 20px;
-    background-image: url('../assets/mr-lee-f4RBYsY2hxA-unsplash.jpg');
-    background-size: cover;
-    background-position: center;
+img {
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 a {
@@ -45,4 +48,3 @@ a {
 a:hover {
     background-color: #0056b3;
 }
-
