@@ -1,4 +1,37 @@
-.about-container {
+.about-us {
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
     font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+}
+
+.cv-section {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.cv-section h2 {
+    color: #333;
+}
+
+.cv-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.cv-section ul li {
+    margin-bottom: 10px;
 }
