@@ -1,0 +1,17 @@
+nav {
+    background-color: #333;
+    padding: 10px;
+    font-family: 'Arial', sans-serif; /* Change this to your preferred font */
+}
+
+nav a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease; /* This line will make the color change smoothly */
+}
+
+nav a:hover {
+    color: #ddd; /* This is the color the text will change to when you hover over it */
+}

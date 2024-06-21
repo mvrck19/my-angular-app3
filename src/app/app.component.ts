@@ -4,11 +4,13 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
+import { NavbarComponent } from './navbar/navbar.component';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,RouterLink],
+  imports: [RouterOutlet,RouterLink,NavbarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
