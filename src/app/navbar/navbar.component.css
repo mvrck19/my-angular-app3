@@ -13,8 +13,9 @@ nav a {
     margin-right: 20px; /* Increase spacing between links if needed */
     text-decoration: none;
     font-size: 20px; /* Increased font size */
-    padding: 10px 15px; /* Increased padding for better clickability */
+    padding: 5px 1%; /* Increased padding for better clickability */
     transition: color 0.3s ease;
+    flex: 1;
 }
 
 nav a:hover {
@@ -22,8 +23,8 @@ nav a:hover {
 }
 
 nav img {
-    height: 80px; /* Adjust based on your preference */
-    margin-right: 20px; /* Ensure some space between the logo and the first link */
+    height: auto; /* Adjust based on your preference */
+    max-height: 7vmax;
     object-fit: contain; /* Ensures the image maintains its aspect ratio */
     border-radius: 10px; /* Makes the image circular */
 }
