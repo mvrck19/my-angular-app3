@@ -1,0 +1,29 @@
+nav {
+    background-color: #333;
+    padding: 0px;
+    font-family: 'Arial', sans-serif;
+    border-radius: 5px;
+    display: flex; /* Ensures items in the nav are aligned inline */
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: center; /* Centers items horizontally */
+}
+
+nav a {
+    color: #fff;
+    margin-right: 20px; /* Increase spacing between links if needed */
+    text-decoration: none;
+    font-size: 20px; /* Increased font size */
+    padding: 10px 15px; /* Increased padding for better clickability */
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+nav img {
+    height: 80px; /* Adjust based on your preference */
+    margin-right: 20px; /* Ensure some space between the logo and the first link */
+    object-fit: contain; /* Ensures the image maintains its aspect ratio */
+    border-radius: 10px; /* Makes the image circular */
+}
