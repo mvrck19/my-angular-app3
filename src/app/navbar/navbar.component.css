@@ -2,20 +2,22 @@ nav {
     background-color: #333;
     padding: 0px;
     font-family: 'Arial', sans-serif;
-    border-radius: 5px;
-    display: flex; /* Ensures items in the nav are aligned inline */
-    align-items: center; /* Aligns items vertically in the center */
-    justify-content: center; /* Centers items horizontally */
+    border-radius: 10px;
+    display: flex;
+    /* Ensures items in the nav are aligned inline */
+    align-items: center;
+    /* Aligns items vertically in the center */
+    justify-content: center;
+    /* Centers items horizontally */
 }
 
 nav a {
     color: #fff;
-    margin-right: 20px; /* Increase spacing between links if needed */
     text-decoration: none;
-    font-size: 20px; /* Increased font size */
-    padding: 5px 1%; /* Increased padding for better clickability */
+    font-size: 3vw;
     transition: color 0.3s ease;
     flex: 1;
+    display: flex;
 }
 
 nav a:hover {
@@ -23,8 +25,11 @@ nav a:hover {
 }
 
 nav img {
-    height: auto; /* Adjust based on your preference */
+    height: auto;
+    /* Adjust based on your preference */
     max-height: 7vmax;
-    object-fit: contain; /* Ensures the image maintains its aspect ratio */
-    border-radius: 10px; /* Makes the image circular */
+    object-fit: contain;
+    /* Ensures the image maintains its aspect ratio */
+    border-radius: 10px;
+    /* Makes the image circular */
 }
