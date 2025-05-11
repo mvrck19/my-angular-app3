@@ -2,16 +2,12 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f9f9f9;
-    border-radius: 10px;
 }
 
 .contact-image {
     width: 300px;
     height: 300px;
-    border-radius: 25px;
+    border-radius: 10px;
     object-fit: cover;
     display: block;
     margin: 20px auto;
@@ -20,45 +16,31 @@
 .social-links {
     margin-top: 20px;
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 12px;
     justify-content: center;
 }
 
-.social-link mat-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 24px;
-    height: 24px;
-    font-size: 24px;
-}
-
-.social-link:hover {
-    color: #4caf50;
-}
-
-.chip-link {
+.button-link {
     text-decoration: none;
-    color: inherit;
 }
 
-::ng-deep .mat-mdc-chip {
-    display: flex !important;
-    align-items: center !important;
-    gap: 8px !important;
-    padding: 8px 16px !important;
+.button-link button {
+    min-width: 180px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    padding: 12px 24px;
+    border: none;
 }
 
-::ng-deep .mat-mdc-chip mat-icon {
-    margin: 0 !important;
-    font-size: 20px !important;
-    height: 20px !important;
-    width: 20px !important;
-    display: flex !important;
-    align-items: center !important;
+.button-link button:hover {
+    background-color: #f0f0f0;
+    transform: none;
+    box-shadow: none;
 }
 
-::ng-deep .mdc-evolution-chip-set__chips {
-    justify-content: center !important;
+button mat-icon {
+    margin-right: 12px;
+    color: #6dc570;
 }
-

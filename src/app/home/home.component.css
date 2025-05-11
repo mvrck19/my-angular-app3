@@ -48,3 +48,13 @@ a {
 a:hover {
     background-color: #0056b3;
 }
+
+.responsive-title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    line-height: 1.2;
+}
+
+.responsive-subtitle {
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    line-height: 1.3;
+}
