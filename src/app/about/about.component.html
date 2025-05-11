@@ -1,24 +1,41 @@
 <div class="about-us">
-    <img class="profile-picture" src="prof.jpg" alt="Profile Picture">
+    <img class="profile-picture" src="8.jpg" alt="Profile Picture">
     <div class="cv-section">
-        <h2>Education</h2>
-        <ul>
-            <li>BSc in Computer Science, University X</li>
-            <!-- Add more as needed -->
-        </ul>
+        <h2>Σχετικά με Εμένα</h2>
+        <p>
+            Είμαι πτυχιούχος Φυσικοθεραπεύτρια, απόφοιτη του Πανεπιστημίου Θεσσαλίας (πρώην ΤΕΙ).
+            Κατά την πορεία μου, έχω αποκτήσει πολύτιμη και πολυετή εμπειρία μέσα από τη συνεργασία με:
+            δημόσια νοσοκομεία, κέντρα αποκατάστασης και ιδιωτικά φυσικοθεραπευτήρια.
+        </p>
+        <p>
+            Η επιστήμη της φυσικοθεραπείας εξελίσσεται διαρκώς, φέρνοντας στο προσκήνιο νέες γνώσεις και
+            τεχνικές αποκατάστασης. Για τον λόγο αυτό, επενδύω συστηματικά στη συνεχιζόμενη επιμόρφωση, με
+            στόχο να προσφέρω υπηρεσίες υψηλής ποιότητας, βασισμένες στα πιο σύγχρονα επιστημονικά
+            δεδομένα.
+        </p>
+        <!-- Replace the existing ul with this -->
+        <div class="specialties-container">
+            <mat-chip-set class="specialty-chips">
+                <mat-chip *ngFor="let specialty of specialties">
+                    <mat-icon>{{specialty.icon}}</mat-icon>
+                    {{specialty.text}}
+                </mat-chip>
+            </mat-chip-set>
+        </div>
     </div>
+    <p>
+        Η συνεχής εκπαίδευση αποτελεί για εμένα όχι απλώς επαγγελματική υποχρέωση, αλλά επιλογή
+        ευθύνης, απέναντι σε κάθε άνθρωπο που μου εμπιστεύεται την υγεία του.
+    </p>
     <div class="cv-section">
-        <h2>Work Experience</h2>
-        <ul>
-            <li>Software Engineer at Company Y</li>
-            <!-- Add more as needed -->
-        </ul>
-    </div>
-    <div class="cv-section">
-        <h2>Seminars</h2>
-        <ul>
-            <li>Attended Seminar Z</li>
-            <!-- Add more as needed -->
-        </ul>
+        <h2>Η φιλοσοφία μου</h2>
+        <p>
+            Με σεβασμό στον άνθρωπο και έμφαση σε επιστημονικά τεκμηριωμένες πρακτικές, δημιουργώ
+            εξατομικευμένα θεραπευτικά προγράμματα που ανταποκρίνονται στις ανάγκες κάθε ασθενούς.
+        </p>
+        <p>
+            Στόχος μου δεν είναι απλώς η αποκατάσταση, αλλά η ενίσχυση της ποιότητας ζωής, μέσα από μια
+            σχέση εμπιστοσύνης, φροντίδας και εξέλιξης.
+        </p>
     </div>
 </div>

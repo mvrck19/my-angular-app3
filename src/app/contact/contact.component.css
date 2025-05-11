@@ -2,9 +2,45 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f9f9f9;
-    border-radius: 10px;
 }
 
+.contact-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
+
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.button-link {
+    text-decoration: none;
+}
+
+.button-link button {
+    min-width: 180px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    padding: 12px 24px;
+    border: none;
+}
+
+.button-link button:hover {
+    background-color: #f0f0f0;
+    transform: none;
+    box-shadow: none;
+}
+
+button mat-icon {
+    margin-right: 12px;
+    color: #6dc570;
+}
