@@ -8,3 +8,32 @@
     border-radius: 10px;
 }
 
+.contact-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
+
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s;
+}
+
+.social-link:hover {
+    color: #4caf50;
+}
+
