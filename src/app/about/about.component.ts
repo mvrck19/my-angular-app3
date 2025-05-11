@@ -3,6 +3,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { CommonModule } from '@angular/common';
 import { MatChipsModule } from '@angular/material/chips';
 
+
 @Component({
   selector: 'app-about',
   standalone: true,

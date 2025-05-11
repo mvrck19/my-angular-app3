@@ -9,10 +9,13 @@
 }
 
 .profile-picture {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    border-radius: 25px;
+    width: 300px;
+    height: 300px;
     margin: 20px auto;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .cv-section {
@@ -59,7 +62,7 @@ mat-icon {
     color: #4caf50; /* Optional: Set icon color to green */
 }
 
-.specialties-container {
+specialties-container {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
