@@ -24,16 +24,41 @@
     justify-content: center;
 }
 
-.social-link {
+.social-link mat-icon {
     display: flex;
     align-items: center;
-    gap: 8px;
-    text-decoration: none;
-    color: #333;
-    transition: color 0.2s;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
 }
 
 .social-link:hover {
     color: #4caf50;
+}
+
+.chip-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+::ng-deep .mat-mdc-chip {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    padding: 8px 16px !important;
+}
+
+::ng-deep .mat-mdc-chip mat-icon {
+    margin: 0 !important;
+    font-size: 20px !important;
+    height: 20px !important;
+    width: 20px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+::ng-deep .mdc-evolution-chip-set__chips {
+    justify-content: center !important;
 }
 
