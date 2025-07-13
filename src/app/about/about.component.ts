@@ -6,11 +6,10 @@ import { MatCardModule } from '@angular/material/card';
 
 
 @Component({
-  selector: 'app-about',
-  standalone: true,
-  imports: [MatIconModule, CommonModule, MatChipsModule, MatCardModule],
-  templateUrl: './about.component.html',
-  styleUrl: './about.component.css'
+    selector: 'app-about',
+    imports: [MatIconModule, CommonModule, MatChipsModule, MatCardModule],
+    templateUrl: './about.component.html',
+    styleUrl: './about.component.css'
 })
 export class AboutComponent {
 
