@@ -97,3 +97,34 @@ specialties-container {
     height: 20px;
     width: 20px;
 }
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.education-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.education-card mat-card-title {
+  color: #2196F3;
+  font-size: 1.2rem;
+}
+
+.education-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.education-card p {
+  color: #666;
+  margin: 0;
+}
